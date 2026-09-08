@@ -31,4 +31,4 @@ Para facilitar a visualização por recrutadores e avaliadores, o código pode s
 4. Cole o código no editor e clique no botão "Run".
 
 ---
-Desenvolvedor - Pedro Monteiro
+Desenvolvedor - Pedro Monteiro e Igor Jesus
