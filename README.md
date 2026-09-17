@@ -1,34 +1,83 @@
-# Mercado do Zé - Sistema de Gerenciamento em C
+# 🛒 Mercado do Zé — Sistema de Gerenciamento em C
 
-Este projeto foi desenvolvido como parte dos estudos da disciplina de Técnicas de Programação no curso de Engenharia de Software. Trata-se de uma aplicação em C ANSI que simula o fluxo de venda e fechamento de caixa de um estabelecimento comercial.
+O **Mercado do Zé** é uma aplicação desenvolvida em C ANSI como parte dos estudos da disciplina de Técnicas de Programação, no curso de Engenharia de Software.
 
-## Foco Acadêmico
-O objetivo principal deste projeto foi aplicar conceitos fundamentais de engenharia de software no desenvolvimento em baixo nível:
-- Modularização: Divisão do sistema em funções específicas para garantir reuso e fácil manutenção.
-- Estruturas de Dados: Uso de structs para modelagem de entidades complexas (Produtos).
-- Lógica de Negócio: Implementação de cálculos de descontos baseados em regras condicionais e categorias de produtos.
+Este foi meu primeiro projeto em C, desenvolvido em colaboração com Igor Jesus. O sistema simula operações básicas de um estabelecimento comercial, incluindo cadastro de produtos, cálculo de vendas, aplicação de descontos e fechamento de caixa.
 
-## Funcionalidades Técnicas
-- Cadastro Dinâmico: Captura de dados (Nome, Preço, Quantidade) com tratamento de buffer.
-- Cálculo Automático: Motor de cálculo que percorre o array de produtos para totalizar a venda.
-- Sistema de Descontos: Aplicação de regras específicas para categorias como Doces, Temperos e Verduras.
-- Emissão de Nota Fiscal: Geração de relatório detalhado via console.
+## 🎯 Objetivo do Projeto
 
-## Especificações Técnicas
-- Linguagem: C (Padrão ANSI)
-- Bibliotecas Utilizadas: stdio.h, string.h
-- Capacidade: Suporte para até 100 itens por sessão (diretiva MAX).
+Aplicar conceitos fundamentais de programação em C, desenvolvendo uma aplicação de gerenciamento comercial por meio de estruturas de dados, funções e lógica condicional.
 
-## Como Executar (Compiladores Online)
+## ⚙️ Funcionalidades
 
-Para facilitar a visualização por recrutadores e avaliadores, o código pode ser executado diretamente no navegador utilizando ferramentas como Programiz ou OnlineGDB:
+* **Cadastro de produtos:** registro de nome, preço e quantidade dos produtos.
+* **Cálculo de vendas:** cálculo automático do valor total dos itens cadastrados.
+* **Sistema de descontos:** aplicação de regras condicionais para categorias como doces, temperos e verduras.
+* **Fechamento de caixa:** consolidação dos valores da venda.
+* **Emissão de nota fiscal:** apresentação de um relatório detalhado da compra diretamente no console.
 
-1. Acesse o código fonte: [Mercado_do_Ze_C.c](./Mercado_do_Ze_C.c)
-2. Copie todo o conteúdo do arquivo.
-3. Acesse um dos compiladores abaixo:
-   - [Programiz C Compiler](https://www.programiz.com/c-programming/online-compiler/)
-   - [OnlineGDB (C)](https://www.onlinegdb.com/online_c_compiler)
-4. Cole o código no editor e clique no botão "Run".
+## 🧠 Conceitos Aplicados
 
----
-Desenvolvedores - Pedro Monteiro e Igor Jesus
+* Modularização e organização do código em funções.
+* Estruturas (`struct`) para representar produtos.
+* Vetores para armazenamento dos itens.
+* Estruturas condicionais para implementação das regras de negócio.
+* Laços de repetição para processamento dos produtos.
+* Manipulação de strings e entrada de dados pelo console.
+
+## 🛠️ Tecnologias
+
+* **Linguagem:** C (ANSI)
+* **Bibliotecas:** `stdio.h` e `string.h`
+* **Ambiente:** Aplicação executada via console
+* **Capacidade:** Até 100 produtos por sessão, conforme definido pela constante `MAX`.
+
+## ▶️ Como Executar
+
+O código pode ser compilado localmente ou executado em um compilador online.
+
+### Opção 1 — Compilador online
+
+1. Acesse o arquivo [`Mercado_do_Ze_C.c`](./Mercado_do_Ze_C.c).
+2. Copie o código-fonte.
+3. Abra um dos compiladores online:
+
+   * [Programiz — C Online Compiler](https://www.programiz.com/c-programming/online-compiler/)
+   * [OnlineGDB — C Compiler](https://www.onlinegdb.com/online_c_compiler)
+4. Cole o código no editor.
+5. Execute o programa clicando em **Run**.
+
+### Opção 2 — Compilação local
+
+Caso tenha o GCC instalado, compile o arquivo pelo terminal:
+
+```bash
+gcc Mercado_do_Ze_C.c -o mercado
+```
+
+Em seguida, execute o programa:
+
+**Windows:**
+
+```bash
+.\mercado.exe
+```
+
+**Linux:**
+
+```bash
+./mercado
+```
+
+## 📚 Contexto Acadêmico
+
+Projeto desenvolvido durante a disciplina de Técnicas de Programação, no curso de Engenharia de Software.
+
+Representa uma etapa inicial de aprendizado em programação, com foco na construção de algoritmos, organização do código e resolução de problemas por meio da linguagem C.
+
+## 👨‍💻 Desenvolvedores
+
+- **[Pedro Monteiro](https://github.com/phsmontheiro-glitch)**
+- **[Igor Jesus](https://github.com/igorjesusdasilvatoletntino)**
+
+Projeto desenvolvido em colaboração para fins acadêmicos.
